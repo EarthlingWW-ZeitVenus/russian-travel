@@ -1,0 +1,8 @@
+@import url(__lang-link/header__lang-link.css);
+@import url(__logo/header__logo.css);
+@import url(__links-container/header__links-container.css);
+
+.header {
+position: relative;
+min-height: calc(52px + 28px);
+}
