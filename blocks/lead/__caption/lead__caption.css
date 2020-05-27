@@ -5,6 +5,7 @@
     font-size: 10px;
     line-height: 1.4;
     letter-spacing: 0.15em;
+    margin: 0;
     position: absolute;
     bottom: calc(-14px - 8px);
     left: 0;
