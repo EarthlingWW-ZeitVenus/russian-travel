@@ -3,11 +3,11 @@
 @import url(../place/__title/place__title.css);
 @import url(../place/__website/place__website.css);
 @import url(../place/__url-heading/place__url-heading.css);
-@import url(../place/__url-link/place__url-link.css);
+@import url(../place/__link/place__link.css);
 
 .place {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 32px;
-    /* row-gap: 80px; */
+    row-gap: 48px;
 }
