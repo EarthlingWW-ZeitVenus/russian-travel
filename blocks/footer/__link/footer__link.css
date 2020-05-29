@@ -1,0 +1,15 @@
+.footer__link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    margin-right: 18px;
+}
+
+/* Мое правило :last-of-type почему-то не срабатывает, пока не разобрался почему */
+
+ /* .footer__link:last-of-type {
+    margin-right: 0;
+} */    

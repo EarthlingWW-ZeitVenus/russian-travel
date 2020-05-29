@@ -1,0 +1,49 @@
+@font-face {
+    src: url("Inter-Regular.woff2?v=3.13") format("woff2"),
+         url("Inter-Regular.woff?v=3.13") format("woff");
+    font-family: 'Inter';
+    font-weight: normal;
+ }
+ 
+ @font-face {
+    src: url("Inter-Bold.woff2?v=3.13") format("woff2"),
+         url("Inter-Bold.woff?v=3.13") format("woff");
+     font-family: 'Inter';
+     font-weight: bold;
+     /* font-weight: 700; */
+ }
+ 
+ @font-face {
+    src: url("Inter-Italic.woff2?v=3.13") format("woff2"),
+         url("Inter-Italic.woff?v=3.13") format("woff");
+     font-family: 'Inter';
+     font-style: italic;
+ }
+
+ @font-face {
+    src: url("Inter-Black.woff2?v=3.13") format("woff2"),
+         url("Inter-Black.woff?v=3.13") format("woff");
+    font-family: 'Inter';
+    font-weight: 900;
+ }
+
+
+ /* 'Arial', 'sans-serif' */
+
+/* .font-inter {
+     font-family: 'Inter';
+ }
+
+ .font-inter_variant_bold {
+     font-weight: bold;
+ }
+
+ .font-inter_variant_italic {
+     font-style: italic;
+ }
+
+ .font-inter_variant_w900 {
+    font-weight: 900;
+} */
+
+
