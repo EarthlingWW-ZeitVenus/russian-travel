@@ -7,3 +7,30 @@
     background-color: #2A2C2F;
   }
   
+@media screen and (max-width: 1023px) {
+  .page {
+    min-width: 768px;
+    max-width: 1023px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+    min-width: 425px;
+    max-width: 767px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .page {
+    min-width: unset;
+    max-width: 424px;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .page {
+    min-width: 1281x;
+    max-width: unset;
+  }
+}
