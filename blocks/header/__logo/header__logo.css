@@ -1,19 +1,19 @@
 .header__logo {
-    position: absolute;
+  /*  position: absolute;
     top: 28px;
-    left: 48px;
+    left: 48px; */
 }
 
-@media screen and (max-width: 1023px) {
+/* @media screen and (max-width: 1023px) {
     .header__logo {
       left: 24px;
     }
-  }
+  } */
 
 @media screen and (max-width: 424px) {
     .header__logo {
-      top: 16px;
-      left: 16px;
+   /* top: 16px;
+      left: 16px; */
       width: 142px;
       height: 42px;
     }

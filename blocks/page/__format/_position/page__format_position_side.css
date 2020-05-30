@@ -1,0 +1,15 @@
+.page__format_position_side {
+    padding: 0px 48px;
+  }
+
+@media screen and (max-width: 1023px) {
+    .page__format_position_side {
+    padding: 0px 24px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .page__format_position_side  {
+    padding: 0px 16px;
+    }
+}

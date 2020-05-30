@@ -1,11 +1,11 @@
 .header__links-container {
     display: flex;
-    position: absolute;
+    /* position: absolute;
     top: 46px;
-    right: 48px; /* calc(2*28px + 48px + 18px); */
+    right: 48px; calc(2*28px + 48px + 18px); */
 }
 
-@media screen and (max-width: 1023px) {
+/* @media screen and (max-width: 1023px) {
     .header__links-container {
       right: 24px;
     }
@@ -16,4 +16,4 @@
       right: 16px;
       top: 30px;
     }
-  }
+  }  */

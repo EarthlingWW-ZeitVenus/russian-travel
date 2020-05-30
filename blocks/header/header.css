@@ -3,6 +3,10 @@
 @import url(__links-container/header__links-container.css);
 
 .header {
-position: relative;
-min-height: calc(52px + 28px);
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+
+/* position: relative; */
+/* min-height: calc(52px + 28px); */
 }

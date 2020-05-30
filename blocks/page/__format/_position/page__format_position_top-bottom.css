@@ -1,0 +1,9 @@
+.page__format_position_top-bottom {
+    padding: 28px 0px 24px;
+    }
+
+@media screen and (max-width: 424px) {
+    .page__format_position_top-bottom {
+        padding: 16px 0px 24px;
+        }
+    }

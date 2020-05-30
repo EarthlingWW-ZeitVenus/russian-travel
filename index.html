@@ -11,6 +11,9 @@
 
 <!-- TODO (important):
 1. Для переключения между русским и английским возможно понадобяться формы, уточнить этот момент у наставника
+2. Убрать везде высоту, оставить только min-height для header и footer
+3. Прописать бэкапные шрифты всем компонентам
+
 -->
 
 <!-- TODO:
@@ -21,14 +24,15 @@
 
 <!-- NOTES:
 1. Не задавать размеры для секций, верстать только блоки и элементы внутри секций
-
 -->
+
+
 
 <body>
 
-<div class="page">
+<div class="page page__format_position_top-bottom">
 
-  <header class="header">
+  <header class="header page__format_position_side">
     <img class="header__logo" src="images/header__logo.svg" alt="логотип шапки">
     <div class="header__links-container">
       <a class="header__lang-link font-inter" href="#">Ru</a>
@@ -36,15 +40,24 @@
     </div>
   </header>
 
-  <main class="content">
+  <main class="content page__format_position_side">
 
-    <section class="lead">
+    <!-- <section class="lead">
       <h1 class="lead__title">Путешествия<br>по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках<br>новостей, а здесь.</p>
       <div class="lead__image">
         <img class="lead__path-image" src="images/Group 4.svg" alt="траектория путешествия по России">
         <p class="lead__caption">ваша полка — верхняя</p>
       </div>
+    </section> -->
+
+    <!-- Когда время останется попытаться сделать изображение резиновым (интересно добиться этого эффекта) -->
+
+    <section class="lead">
+      <h1 class="lead__title">Путешествия<br>по России</h1>
+      <p class="lead__subtitle">Настоящая страна не в выпусках<br>новостей, а здесь.</p>
+      <img class="lead__image" src="images/lead__image.jpg" alt="Изображение маршрута путешествия">
+      <p class="lead__caption">ваша полка — верхняя</p>
     </section>
 
     <section class="intro">
