@@ -2,6 +2,7 @@
     background-image: url(../../../images/cover__background.jpg);
     background-position: center;
     background-size: cover;
+    max-width: 1184px;
     /* min-width: 1024px; */
     min-height: 640px;
     background-repeat: no-repeat;
@@ -24,5 +25,6 @@
 @media screen and (max-width: 424px) {
     .cover__background {
     min-height: 200px;
+    min-width: 320px;
     }
 }  

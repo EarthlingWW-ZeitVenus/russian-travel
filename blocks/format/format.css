@@ -1,0 +1,105 @@
+/* .format-dissimilar-areas {
+    padding: 0;
+  } */
+
+/*
+.format-page-top-bottom {
+    padding: 28px 0px 24px;
+} */
+
+.format-similar-areas {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.format-lead-area {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.format-intro-area {
+    padding-left: 48px;
+    padding-right: 48px; 
+}
+
+.format-places-area {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+/*.format-cover-area {
+    padding-left: 0px;
+    padding-right: 0px;
+} */   
+
+.format-page-top-bottom {
+    padding-top: 28px;
+    padding-bottom: 24px;
+}
+
+@media screen and (min-width: 1280px) {
+    .format-lead-area {
+        padding-left: 148px;
+        padding-right: 148px;
+    }
+
+    .format-intro-area {
+        padding-left: 148px;
+        padding-right: 148px; 
+    }
+
+    
+    .format-places-area {
+        padding-left: 148px;
+        padding-right: 148px;
+    }    
+}
+
+@media screen and (max-width: 1023px) {
+    .format-similar-areas {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .format-lead-area {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .format-intro-area {
+        padding-left: 24px;
+        padding-right: 24px; 
+    }
+
+    .format-places-area {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+    
+@media screen and (max-width: 424px) {
+    .format-similar-areas {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .format-page-top-bottom {
+        padding-top: 16px;
+    }
+
+    .format-lead-area {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .format-places-area {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .format-intro-area {
+        padding-left: 16px;
+        padding-right: 16px; 
+    }
+}
+
