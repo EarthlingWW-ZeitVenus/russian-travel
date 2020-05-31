@@ -6,3 +6,7 @@ line-height: 22px;
 color: white;
 align-self: end;
 }
+
+.place__link:hover {
+    color: #dadada;
+}
