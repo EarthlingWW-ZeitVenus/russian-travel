@@ -20,7 +20,7 @@
     color: #dadada;
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 767px) {
     .header__lang-link {
       font-size: 18px;
       line-height: 24px;
