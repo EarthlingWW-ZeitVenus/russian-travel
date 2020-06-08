@@ -1,0 +1,17 @@
+.footer__link-container {
+  padding-right: 18px;
+}
+
+.footer__link-container:last-of-type {
+  padding-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link-container {
+    padding-right: 0;
+    padding-bottom: 32px;
+  }
+  .footer__link-container:last-of-type {
+    padding-bottom: 48px;
+  }
+}

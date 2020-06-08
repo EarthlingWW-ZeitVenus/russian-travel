@@ -38,9 +38,9 @@
 
 <body>
 
-<div class="page format-page-top-bottom">
+<div class="page">
 
-  <header class="header format-similar-areas">
+  <header class="header">
     <img class="header__logo" src="images/header__logo.svg" alt="логотип шапки">
     <div class="header__links-container">
       <a class="header__lang-link font-inter" href="#">Ru</a>
@@ -57,7 +57,7 @@
       <p class="lead__caption">ваша полка — верхняя</p>
     </section>
 
-    <section class="intro format-intro-area">
+    <section class="intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
       <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
            планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия
@@ -75,7 +75,7 @@
       </ul>
     </section>
 
-    <section class="photo-grid format-similar-areas">
+    <section class="photo-grid">
       <img class="photo-grid__item" src="images/photo-grid__item.jpg" alt="картинка с изображением окна поезда">
       <img class="photo-grid__item" src="images/photo-grid__item2.jpg" alt="картинка atharva-tulsi">
       <img class="photo-grid__item" src="images/photo-grid__item3.jpg" alt="картинка с изображением тумана">
@@ -90,7 +90,7 @@
       <img class="photo-grid__item" src="images/photo-grid__item12.jpg" alt="картинка ergaki">
     </section>
 
-    <section class="places format-places-area">
+    <section class="places">
       <ul class="place-container">
         <li class="place">
           <h2 class="place__title">Куршская коса</h2>
@@ -186,28 +186,30 @@
     </section>
 
     <section class="cover">
-      <div class="cover__background">
-        <a class="cover__overlay" href="#">
+      <!-- <div class="cover__background"> -->
+        <a class="cover__background" href="#">
           <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы
             до Байкала на электричках.</p>
         </a>
-      </div>
+      <!-- </div> -->
     </section>
 
   </main>
 
-  <footer class="footer format-similar-areas">
+  <footer class="footer">
     <ul class="footer__links-container">
-      <li><a class="footer__link" href="#">Карты</a></li>
-      <li><a class="footer__link" href="#">Погода</a></li>
-      <li><a class="footer__link" href="#">Расписание</a></li>
-      <li><a class="footer__link" href="#">Календарь</a></li>
-      <li><a class="footer__link" href="#">Путешествия</a></li>
+      <li class="footer__link-container"><a class="footer__link" href="#">Карты</a></li>
+      <li class="footer__link-container"><a class="footer__link" href="#">Погода</a></li>
+      <li class="footer__link-container"><a class="footer__link" href="#">Расписание</a></li>
+      <li class="footer__link-container"><a class="footer__link" href="#">Календарь</a></li>
+      <li class="footer__link-container"><a class="footer__link" href="#">Путешествия</a></li>
     </ul>
     <p class="footer__copyright">&copy; 2020. Earthling</p>
   </footer>
 
 </div>
+
 </body>
+
 </html>

@@ -3,24 +3,30 @@
 @import url(__title/intro__title.css);
 
 .intro {
-    color: white;
-    max-width: 690px;
-    margin-top: 92px;
-/* margin-left: 48px; */
+  color: white;
+  max-width: 690px;
+  padding-bottom: 92px;
+  padding-left: 48px;
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    padding-left: 148x;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-.intro {
-      max-width: 720px;
-      margin: 88px 0px 0px;
-      /* margin-left: 24px; */
-    }
+  .intro {
+    max-width: 720px;
+    padding-bottom: 88px;
+    padding-left: 24px; 
   }
-
-@media screen and (max-width: 424px) {
-.intro {
-    max-width: 288px;
-    margin: 64px 0px 0px;
-
 }
+
+@media screen and (max-width: 767px) {
+  .intro {
+    max-width: 288px;
+    padding-bottom: 64px;
+    padding-left: 16px;
+  }
 }
