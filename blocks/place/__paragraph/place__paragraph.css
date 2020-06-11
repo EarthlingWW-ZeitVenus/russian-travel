@@ -12,7 +12,7 @@
   padding-bottom: 0;
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 26px;
@@ -23,5 +23,7 @@
   .place__paragraph {
     padding-left: 16px;
     padding-right: 16px;
+    font-size: 16px;
+    line-height: 26px;
   }
 }

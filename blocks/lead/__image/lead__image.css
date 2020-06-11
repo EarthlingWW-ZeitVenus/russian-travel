@@ -1,32 +1,4 @@
 .lead__image {
-  display: block;
-  margin: 0 auto;
-  padding: 0px 48px 8px;
-}
-
-@media screen and (min-width: 1280px) {
-  .lead__image {
-    width: calc(100% - 2*(148px));
-    padding: 0px 148px 8px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .lead__image {
-    max-width: 768px;
-    padding: 0px 0px 8px;
-  }
-}
-
-@media screen and (max-width: 785px) {
-  .lead__image {
-    width: 100%;
-  }
-} 
-
-@media screen and (max-width: 767px) {
-  .lead__image {
-    min-width: 320px;
-    padding: 0px 0px 8px;
-  }
+  width: 100%;
+  margin-bottom: 8px;
 }

@@ -1,0 +1,24 @@
+.lead__image-figure {
+    margin: 0 auto;
+    width: calc(100% - (2*48px));
+    max-width: 984px;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__image-figure {
+    width: 916px;
+  }
+}
+
+@media screen and (max-width: 922px) {
+  .lead__image-figure {
+    width: 100%;
+    min-width: 320px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .lead__image-figure {
+    min-width: 320px;
+  }
+}

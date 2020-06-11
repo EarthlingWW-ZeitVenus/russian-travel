@@ -3,6 +3,9 @@
   margin-bottom: 0;
   padding: 0px 152px 32px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;

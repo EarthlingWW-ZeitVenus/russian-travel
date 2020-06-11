@@ -1,5 +1,8 @@
 .cover__subtitle {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
   font-weight: normal;
   max-width: 360px;
   font-size: 18px;
@@ -7,6 +10,7 @@
   text-align: center;
   margin: 0;
   z-index: 1;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 767px) {
