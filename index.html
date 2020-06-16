@@ -8,33 +8,6 @@
   <link rel="stylesheet" href="pages/index.css">
 </head>
 
-<!-- TODO (important):
-1. Убрать везде фиксированную высоту, оставить только min-height для header и footer +
-2. Прописать бэкапные шрифты всем компонентам +
-3. Прописывать контент для 1280 сразу +
-4. photo-grid сделать списком
-5. Проверить обозначенные на макете значения, чтоб на этих разрешениях моя картинка совпадала с макетом +
-6. Удалить теги <br> +
-7. Удалить из папки fonts неиспользуемые ворматы шрифта +
-8. Эффект hover на ссылки footer и header, прописать такой же эффект, как делал для place +
--->
-
-<!-- TODO:
-1. Прописать шрифт Inter и нужные опции к ним +
-2. Прописать для flex и grid вендорные префиксы +
-3. Не забыть попробовать сжать векторные и растровые картинки (ссылки есть у меня в workflow) +
-4. line-height везде изобразить дробными числами
-5. Сгладить шрифты, подключить основные улучшения для шрифта +
-6. Заполнить README +
-7. После завершения удалить свои зеленные комментарии
--->
-
-<!-- TODO (Review):
-1. Указать альтернативные шрифты везде, еще раз проверить (где-то пропустил, видимо) +
-2. Проверить где мой адаптив прилепает к краям страницы +
-
--->
-
 <body class="root">
 
 <div class="page">
@@ -77,18 +50,20 @@
     </section>
 
     <section class="photo-grid">
-      <img class="photo-grid__item" src="images/photo-grid__item.jpg" alt="вид из окна движущегося поезда">
-      <img class="photo-grid__item" src="images/photo-grid__item2.jpg" alt="вершины гор в облаках">
-      <img class="photo-grid__item" src="images/photo-grid__item3.jpg" alt="собака на стогу из сена на поле, вокруг туман">
-      <img class="photo-grid__item" src="images/photo-grid__item4.jpg" alt="верхушки лесных деревьев в тумане">
-      <img class="photo-grid__item" src="images/photo-grid__item5.jpg" alt="колесо автомобиля на льду">
-      <img class="photo-grid__item" src="images/photo-grid__item6.jpg" alt="побережье Байкала, слева вода, справа суша, вдали гора">
-      <img class="photo-grid__item" src="images/photo-grid__item7.jpg" alt="заснеженная гора Эльбрус, светлое небо">
-      <img class="photo-grid__item" src="images/photo-grid__item8.jpg" alt="знак пешеходного перехода, на заднем фоне строительные блоки">
-      <img class="photo-grid__item" src="images/photo-grid__item9.jpg" alt="вид на вершины гор Камчатки, сквозь облака">
-      <img class="photo-grid__item" src="images/photo-grid__item10.jpg" alt="ясный вид на гору Камчатки, на переднем плане поле, с левой стороны гору подсвечивает солнце">
-      <img class="photo-grid__item" src="images/photo-grid__item11.jpg" alt="заснеженная гора Байкала, слева ледянное побережье, облачное небо">
-      <img class="photo-grid__item" src="images/photo-grid__item12.jpg" alt="силуэты горной местности, сквозь обильный туман">
+      <ul class="photo-grid__list">
+        <li><img class="photo-grid__item" src="images/photo-grid__item.jpg" alt="вид из окна движущегося поезда"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid__item2.jpg" alt="вершины гор в облаках"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid__item3.jpg" alt="собака на стогу из сена на поле, вокруг туман"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid__item4.jpg" alt="верхушки лесных деревьев в тумане"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid__item5.jpg" alt="колесо автомобиля на льду"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid__item6.jpg" alt="побережье Байкала, слева вода, справа суша, вдали гора"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid__item7.jpg" alt="заснеженная гора Эльбрус, светлое небо"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid__item8.jpg" alt="знак пешеходного перехода, на заднем фоне строительные блоки"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid__item9.jpg" alt="вид на вершины гор Камчатки, сквозь облака"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid__item10.jpg" alt="ясный вид на гору Камчатки, на переднем плане поле, с левой стороны гору подсвечивает солнце"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid__item11.jpg" alt="заснеженная гора Байкала, слева ледянное побережье, облачное небо"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid__item12.jpg" alt="силуэты горной местности, сквозь обильный туман"></li>
+      </ul>
     </section>
 
     <section class="places">
