@@ -4,18 +4,9 @@
   font-weight: normal;    
   font-size: 24px;
   line-height: 28px;
-  margin-right: 18px;
   text-decoration: none;
   transition: .3s;
 }
-
-.header__lang-link:nth-of-type(2n) {
-  margin-right: 0;
-}
-
-/* .header__lang-link:active {
-  text-decoration: underline;
-} */
 
 .header__lang-link:hover {
   opacity: .8;
