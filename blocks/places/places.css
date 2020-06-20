@@ -1,4 +1,5 @@
 @import url(../place/place.css);
+@import url(__container/places__container.css);
 
 .places {
   padding: 0px 48px 92px;
